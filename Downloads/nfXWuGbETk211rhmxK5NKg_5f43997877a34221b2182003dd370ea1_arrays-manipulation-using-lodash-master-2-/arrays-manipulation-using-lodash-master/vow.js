@@ -1,0 +1,6 @@
+const system = require('./src/System')
+console.log('HOST NAME: ' + system.getHostName())
+console.log('CURRENT USER: ' + system.getCurrentUser().username)
+console.log('free MEMORY: ' + system.getFreeMemory())
+console.log('OS NAME: ' + system.getOSName())
+console.log('CPU details: '+ system.getCPUDetails())
